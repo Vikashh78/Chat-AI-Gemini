@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/generative-ai";
 
 const MODEL_NAME = "gemini-2.5-pro";
-const API_KEY = i"AIzaSyB729_wJo4JoJMLntdoj7Be1_FyFeG6yNU";
+const API_KEY = "AIzaSyB729_wJo4JoJMLntdoj7Be1_FyFeG6yNU";
 
 //helper function — convert uploaded image File → Base64 string
 async function fileToBase64(file) {
